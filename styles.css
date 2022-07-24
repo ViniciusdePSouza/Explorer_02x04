@@ -1,0 +1,137 @@
+/* ----------------GLOBAL------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-color: #2F2E41;
+    --secondary-color: #00BFA6;
+    --terciary-color: #C2C2C2;
+}
+
+.container {
+    margin: 0 100px
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+
+    background-color: var(--primary-color);
+    color: #ffff;
+}
+
+/* ---------------------HEADER-------------------- */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 32px 0 56px
+}
+
+a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 0;
+}
+
+ul {
+    width: 306px;
+    height: 30px;
+
+    font-family: "JetBrains Mono", sans-serif;
+    font-weight: 300;
+}
+
+li{
+    opacity: 0.8;
+}
+
+li:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+
+.list {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* ---------------------------MAIN--------------------------- */
+main{
+    margin-bottom: 132px;
+}
+#main-page {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#texts h1 {
+    font-family: "JetBrains Mono", sans-serif;
+    font-weight: 500;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+span {
+    color: var(--secondary-color);
+}
+
+p {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.bold-span {
+    font-weight: normal;
+    color: #ffff;
+}
+
+#bold-colored-span{
+    font-weight: normal;
+}
+
+/* ------------------------FOOTER------------------------ */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#line{
+    width: 568px;
+    height: 0;
+
+    border-top: 1px solid var(--secondary-color);
+
+    margin-bottom: 24px;
+}
+
+footer p {
+    display: flex;
+
+    font-family: "JetBrains Mono", sans-serif;
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.footer{
+    color: #ffff;
+}
+
+#locker{
+    position: absolute;
+
+    left: 0;
+    bottom: 0;
+}
